@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Font awesome -->
+
+    <title>Proyect-Glassmophism</title>
+</head>
+<body>
+    <main class="container">
+        <div class="glass-container">
+            <div class="glass"></div>
+        </div>
+        <div class="input-container">
+                <div class="btn">
+                    <label for="color">Color</label>
+                    <input type="color" class="color-btn">
+                </div>
+                <div class="barra-container">
+                    <label for="transparencia">Transparencia</label>
+                    <input type="range" class="transparencia" min="0"  max="100" value="100">
+                    <output class="transparencia-output">100%</output>
+                </div>
+                <div class="barra-container">
+                    <label for="blur">Blur</label>
+                    <input type="range" class="blur" min="0"  max="100" value="0">
+                    <output class="blur-output">0px</output>
+                </div>
+                <div class="barra-container">
+                    <label for="contraste">Contraste</label>
+                    <input type="range" class="contraste" min="0"  max="100" value="100">
+                    <output class="contrast-output">100%</output>
+                </div>
+                <div class="barra-container">
+                    <label for="saturacion">Saturacion</label>
+                    <input type="range" class="saturacion" min="0"  max="500" value="100">
+                    <output class="saturacion-output">100%</output>
+                </div>
+                <div class="barra-container">
+                    <label for="tamano">Tamaño</label>
+                    <input type="range" class="tamanio" min="0"  max="100" value="50">
+                    <output class="tamanio-output">50%</output>
+                </div>
+                <div class="barra-container">
+                    <label for="radius">Border-radius</label>
+                    <input type="range" class="radio" min="0"  max="180" value="0">
+                    <output class="border-radius-output">0px</output>
+                </div>
+                <div class="input-code">
+                    <div class="code">
+
+                    </div>
+                </div>
+                    <input type="button" value="Copiar" class="copy">
+            </div>
+            
+    </main>
+</body>
+<!-- Scripts -->
+<script src="./main.js"></script>
+</html>
